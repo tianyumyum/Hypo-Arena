@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+._*
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Trace logs (regenerable)
+logs/
+
+# Benchmark data + generated results (released separately via HuggingFace)
+artifacts/
+exports/
+docs/
+
+# Paper-side outputs and aggregated dataset
+paper/
+hypodata.json

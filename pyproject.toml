@@ -1,0 +1,33 @@
+[project]
+name = "hypoarena"
+version = "0.1.0"
+description = "Before the Action: Benchmarking LLMs on Prospective Hypothesis Discovery"
+authors = [
+    { name = "HypoArena Team" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "openai-agents==0.14.8",
+    "openai>=2.0.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.8,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = ["basics", "construction", "evaluation", "generation", "orchestrator"]
+module-root = ""
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
