@@ -7,6 +7,13 @@ inconclusive initial facts, rather than answer a well-defined question.
 📄 Paper: *Before the Action: Benchmarking LLMs on Prospective Hypothesis Discovery*
 🤗 Dataset: [HypoArena/HypoData](https://huggingface.co/datasets/HypoArena/HypoData)
 
+![Reactive QA vs. Proactive Hypothesis Discovery](figs/figure1_v9.png)
+
+Unlike **Reactive QA**, where a model answers well-defined questions, **Proactive
+Hypothesis Discovery (PHD)** asks a model to confront real-world chaos and proactively
+propose a structured hypothesis set — potential causes, prevention strategies, and
+proposed solutions — *before* the question is even posed.
+
 ## Overview
 
 **HypoArena** evaluates whether language models can generate grounded, non-trivial, and
