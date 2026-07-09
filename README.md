@@ -170,7 +170,6 @@ bash orchestrate.bash          # edit the config block at the top first
   title         = {Before the Action: Benchmarking LLMs on Prospective Hypothesis Discovery},
   author        = {Zhong, Tianyun and Jiang, Wangyi and Wang, Wei and Chen, Xuanang and Lu, Yaojie and Ye, Shiwei and Shi, Yuzhen and Yang, Boyu and Wang, Jinghang and Li, Han and Zhai, Weiqi and Xu, Ze and Wei, Hu and Yu, Haiyang and Li, Yongbin and Lin, Hongyu and Sun, Le and Han, Xianpei},
   year          = {2026},
-  eprint        = {XXXX.XXXXX},
   archivePrefix = {arXiv},
   primaryClass  = {cs.CL}
 }
